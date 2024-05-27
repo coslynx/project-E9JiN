@@ -1,0 +1,18 @@
+{
+  "prefix": "!",
+  "moderationRole": "Moderator",
+  "adminRole": "Admin",
+  "muteRole": "Muted",
+  "warningThreshold": 3,
+  "filterWords": ["badword1", "badword2", "badword3"],
+  "scheduledMessages": {
+    "1": {
+      "time": "08:00",
+      "message": "Good morning everyone!"
+    },
+    "2": {
+      "time": "13:00",
+      "message": "Don't forget to take a break and eat lunch!"
+    }
+  }
+}
