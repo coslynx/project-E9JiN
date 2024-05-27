@@ -1,0 +1,22 @@
+{
+  "name": "moderation-discord-bot",
+  "version": "1.0.0",
+  "description": "A moderation discord bot designed to help server owners manage their communities effectively.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "discord-api-types": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1",
+    "winston": "^3.3.3",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "nodemon": "^2.0.12"
+  }
+}
