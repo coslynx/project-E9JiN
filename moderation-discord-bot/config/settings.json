@@ -1,0 +1,15 @@
+{
+  "prefix": "!",
+  "modLogsChannel": "mod-logs",
+  "muteRoleName": "Muted",
+  "warnThreshold": 3,
+  "filterWords": ["badword1", "badword2", "badword3"],
+  "scheduledMessages": [
+    { "message": "Good morning everyone!", "time": "09:00" },
+    { "message": "Don't forget to join our event tonight at 7 PM!", "time": "18:00" }
+  ],
+  "roleCriteria": [
+    { "roleName": "Active Member", "criteria": { "messagesSent": 100 } },
+    { "roleName": "Contributor", "criteria": { "messagesSent": 500, "reactionsGiven": 200 } }
+  ]
+}
