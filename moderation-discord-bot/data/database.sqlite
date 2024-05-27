@@ -1,0 +1,22 @@
+-- database.sqlite (SQLite)
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY,
+    username TEXT NOT NULL,
+    discriminator TEXT NOT NULL,
+    warnings INTEGER DEFAULT 0,
+    muted BOOLEAN DEFAULT 0
+);
+
+CREATE TABLE messages (
+    id INTEGER PRIMARY KEY,
+    content TEXT NOT NULL,
+    timestamp DATETIME NOT NULL
+);
+
+CREATE TABLE roles (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    criteria TEXT NOT NULL
+);
+
+-- End of database.sqlite file contents
